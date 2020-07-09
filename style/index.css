@@ -11,11 +11,24 @@ header h1{
     display: flex;
     text-align:center;
     justify-content: center;
+    margin: 2vh;
 }
 
 header nav{
     display:flex;
     justify-content: center;
+}
+
+.title{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.title p{
+    padding: 2vh;
 }
 
 header nav a{
@@ -25,6 +38,7 @@ header nav a{
     color:white;
     background-color: violet;
     font-size: 16;
+    margin: 1vh 0;
 }
 
 .image{
@@ -42,10 +56,23 @@ header nav a{
     justify-content: space-between;
 }
 
+div .gallery {
+    display:flex;
+    justify-content: space-between;
+}
+
+section .projects div{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+
+} 
+
 .gallery {
     display:flex;
     flex-direction: row;
     width: 15%;
+    justify-content: space-between;
 }
 
 #info{
@@ -53,4 +80,49 @@ header nav a{
     width: 20%;
     align-content: center;
     text-align:center;
+}
+
+footer #contact{
+    display:flex;
+    justify-content: center;
+}
+
+footer nav{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: orchid;
+    color: grey;   
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+  
+/* Set a specific color for each brand */
+  
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+  /* Instagram */
+.fa-instagram{
+    background-color: #125688;
+    color: white;
 }
