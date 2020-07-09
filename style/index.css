@@ -5,6 +5,8 @@
     margin:0;
     max-width:100%;
     border: 1px solid grey;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
   }
 
 header h1{
@@ -48,6 +50,7 @@ header nav a{
     background-position: bottom;
     background-repeat: no-repeat;
     height: 30vh;
+    margin: 4vh 0;
 }
 
 .projects {
