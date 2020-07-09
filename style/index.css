@@ -4,5 +4,53 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border: 2px solid grey;
+    border: 1px solid grey;
   }
+
+header h1{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+}
+
+header nav{
+    display:flex;
+    justify-content: center;
+}
+
+header nav a{
+    display:flex;
+    width: 10%;
+    justify-content: center;
+    color:white;
+    background-color: violet;
+    font-size: 16;
+}
+
+.image{
+    background-image: url("https://images.unsplash.com/photo-1495465798138-718f86d1a4bc");
+    width:100%;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.projects {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery {
+    display:flex;
+    flex-direction: row;
+    width: 15%;
+}
+
+#info{
+    display:flex;
+    width: 20%;
+    align-content: center;
+    text-align:center;
+}
