@@ -4,7 +4,6 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border: 1px solid grey;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
   }
@@ -40,10 +39,11 @@ header nav a{
     color:white;
     background-color: violet;
     font-size: 16;
-    margin: 1vh 0;
+    margin: 1vh 1vh;
 }
 
 .image{
+    border: 2px solid black;
     background-image: url("https://images.unsplash.com/photo-1495465798138-718f86d1a4bc");
     width:100%;
     background-size: cover;
@@ -57,19 +57,8 @@ header nav a{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    width:100%;
 }
-
-div .gallery {
-    display:flex;
-    justify-content: space-between;
-}
-
-section .projects div{
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
-
-} 
 
 .gallery {
     display:flex;
@@ -78,23 +67,37 @@ section .projects div{
     justify-content: space-between;
 }
 
+.gallery img{
+    margin-right: 10%;
+}
+
 #info{
     display:flex;
     width: 20%;
     align-content: center;
     text-align:center;
+    margin: 0 5% ;
 }
 
 footer #contact{
+    margin: 2vh;
     display:flex;
     justify-content: center;
 }
 
 footer nav{
+    padding: 2vh;
     display:flex;
     justify-content: space-evenly;
     background-color: orchid;
     color: grey;   
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
 }
 
 .fa {
