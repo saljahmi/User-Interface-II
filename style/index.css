@@ -6,7 +6,6 @@
     max-width:100%;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    border: 1px solid grey;
   }
 html{
     font-size:62.5%;
@@ -46,6 +45,9 @@ header nav a{
     background-color: #F2BDCD;
     font-size: 1.6rem;
     margin: 1vh 1vh;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 .image{
@@ -106,7 +108,13 @@ footer nav{
     font-size: 2rem;
     text-decoration: none;
     color: black;
-    font-weight:
+    font-weight: bold;
+    background-color: #F2BDCD;
+    width: 200px;
+    border: 1px white solid;
+    border-radius: 5px;
+    text-align:center;
+    padding: 4px 0;
 }
 
 .fa {
