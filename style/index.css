@@ -132,3 +132,12 @@ footer nav{
     background-color: #125688;
     color: white;
 }
+
+@media(max-width:800px){
+    header nav{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+    }
+}
