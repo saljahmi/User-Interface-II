@@ -42,8 +42,8 @@ header nav a{
     display:flex;
     width: 15%;
     justify-content: center;
-    color:white;
-    background-color: violet;
+    color:  black;
+    background-color: #F2BDCD;
     font-size: 1.6rem;
     margin: 1vh 1vh;
 }
@@ -102,13 +102,19 @@ footer nav{
     font-size: 1.6rem;
 }
 
+#contact a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight:
+}
+
 .fa {
     padding: 20px;
-    font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
+}
   
 /* Add a hover effect if you want */
 .fa:hover {
