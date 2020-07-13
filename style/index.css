@@ -7,9 +7,11 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
   }
+
 html{
     font-size:62.5%;
 }
+
 header h1{
     display: flex;
     text-align:center;
@@ -90,7 +92,8 @@ footer nav{
     display:flex;
     justify-content: space-evenly;
     background-color: orchid;
-    color: grey;   
+    color: grey;  
+    font-size: 30px;
 }
 
 #info {
@@ -102,6 +105,7 @@ footer nav{
     text-align:center;
     margin: 0 5% ;
     font-size: 1.6rem;
+   
 }
 
 #contact a{
@@ -119,9 +123,12 @@ footer nav{
 
 .fa {
     padding: 20px;
-    width: 50px;
+    text-align:center;
+    width: 70px;
     text-align: center;
     text-decoration: none;
+    border-radius: 5px;
+    border: white solid 2px; 
 }
   
 /* Add a hover effect if you want */
@@ -187,7 +194,7 @@ footer nav{
 @media(max-width:500px){
     .gallery img{
         width:90%;
-        margin: 0 auto;
+        margin: 5px auto;
         align-items: center;
     }
 }
